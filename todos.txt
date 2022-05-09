@@ -1,0 +1,5 @@
+=> todos
+-> add animation
+-> add 3D icon and images
+-> add video
+-> Open modal when click on explore more button

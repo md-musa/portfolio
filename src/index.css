@@ -1,13 +1,149 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply border-solid border-2 flex items-center justify-center h-12 text-2xl my-0 mx-2 no-underline w-12 hover:bg-transparent;
+  border-radius: 50%;
+  background-color: #c94747;
+  color: #ff895d;
+  transition: all 0.25s;
+  border-color: #c94747;
+  box-shadow: 0 10px 20px #00000017, 0 6px 6px #0000001f;
+}
+.social-item button {
+  @apply border-solid border-2 rounded-full border-[#f9f9f9] bg-[#e96f54] cursor-pointer flex items-center transition-all justify-center h-12 text-2xl py-0 px-8 text-center text-white;
+  box-shadow: 0 10px 20px #00000017, 0 6px 6px #0000001f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  font-family: cursive;
+  user-select: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Ubuntu:wght@400;500&display=swap');
+
+body {
+  font-family: 'Crimson Pro', serif;
+  font-family: 'Ubuntu', sans-serif;
+  height: 400vh;
+}
+
+/* background-color: #ff895d; */
+
+/* .header {
+
+  background-image: linear-gradient(to bottom right, #ff895d, #c94747);
+  top: 15px;
+  left: 15px;
+  padding: 0 15px;
+  width: 100%;
+  transition: all 0.5s;
+} */
+/* 
+.header h2 {
+  font-family: 'Asap', 'Helvetica', 'Tahoma', 'Arial', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+.header p {
+  font-family: 'Nunito', 'Helvetica', 'Tahoma', 'Arial', sans-serif;
+  font-size: 1.333rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 30px;
+} */
+
+/* .social-item a {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 7px;
+  border-radius: 50%;
+  font-size: 1.667rem;
+  background-color: #c94747;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #ff895d !important;
+  text-decoration: none !important;
+  transition: all 0.25s;
+  border: 2px solid #c94747;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.123);
+}
+.social-item a:hover {
+  background-color: transparent;
+  color: #c94747;
+}
+.social-item button {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+  height: 3rem;
+  width: 50px;
+  line-height: 3.5rem;
+  background-color: #e96f54;
+  border: 2px solid #f9f9f9;
+  font-size: medium;
+  color: f9f9f9;
+  border-radius: 5rem;
+  text-align: center;
+  padding: 0 2rem;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.123);
+  transition: all 0.25s;
+  width: 192px;
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+} */
+/* .social-item button:hover {
+  background-color: #f9f9f9;
+  color: #ff895d;
+} */
+
+::selection {
+  background-color: #ff895d;
+  color: #fff;
+  text-shadow: 0px 0px 5px rgba(51, 51, 51, 0.5);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  /* background-image: -webkit-linear-gradient(
+    top,
+    hsl(11, 55%, 79%) 0%,
+    hsl(11, 61%, 69%) 50%,
+    hsl(11, 58%, 58%) 51%,
+    #e96f54 100%
+  ); */
+  background-image: -webkit-linear-gradient(
+    top,
+    #e4f5fc 0%,
+    #bfe8f9 50%,
+    #9fd8ef 51%,
+    #2ab0ed 100%
+  );
+}
+/* border-[#0f013f] */
