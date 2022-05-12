@@ -3,8 +3,8 @@ import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 function Banner() {
   //mx-6 mt-6 rounded-md
   return (
-    <section class="grid md:grid-cols-2 md:h-[100vh] py-32  bg-gradient-to-br from-[#ff895d] to-[#c94747]">
-      <div className="self-center px-6 md:pl-36">
+    <section class="grid grid-cols-2 h-[100vh] bg-gradient-to-br from-[#ff895d] to-[#c94747]">
+      <div className="self-center px-6 pl-36">
         <div className="cursor-pointer shadow-xl w-16 h-16 rounded-full bg-[#cc4b48] flex items-center justify-center">
           <div className="w-11 h-11 rounded-full bg-[#470f06] flex items-center justify-center">
             <p className="logo font-bold text-3xl text-[#cc4b48] text-center">
@@ -19,7 +19,7 @@ function Banner() {
           I'm Musa. I'm a Bangladeshi based Frontend Web Developer and
           Multimedia Engineer building cool stuff.
         </p>
-        <div class="social-item flex flex-wrap">
+        <div class="social-item flex">
           <div>
             <a
               className="link"
@@ -50,7 +50,7 @@ function Banner() {
               <FaGithub />
             </a>
           </div>
-          <div className="w-full mt-4 md:m-auto">
+          <div className="">
             <a
               className=""
               target="_blank"

@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaLongArrowAltRight, FaGithub } from 'react-icons/fa';
 
 function Project(props) {
   const { title, subtitle, description, image, subImage } = props.project;
@@ -17,20 +17,36 @@ function Project(props) {
         </button>
       </div>
 
-      <div class="h-full w-full self-center mx-auto pr-14 flex items-center justify-end">
+      <div class="h-full w-full transition-all duration-200 self-center mx-auto pr-14 flex items-center justify-end">
         <div class="relative h-[70%] w-[90%] shadow-xl">
+          <a href="#">
+            <img
+              className="h-full -z-10 w-full object-cover border-solid border-4 rounded-2xl border-[#3b1203]"
+              src={image}
+              alt=""
+              srcset=""
+            />
+          </a>
           <img
-            className="h-full -z-10 w-full object-cover border-solid border-4 rounded-2xl border-[#3b1203]"
-            src={image}
-            alt=""
-            srcset=""
-          />
-          <img
-            className="absolute bottom-0 -left-72 z-50 h-[100%] w-[100%]  object-contain"
+            className="absolute flex bottom-0 -left-72 z-50 h-[100%] w-[100%]  object-contain"
             src={subImage}
             alt=""
             srcset=""
           />
+          <div className="absolute flex bottom-5 right-[35%] space-x-3">
+            <a
+              className="border-solid bg-[#e86d54] hover:bg-[#c94747] border-[#e96f54] hover:border-[#c94747] text-[#ffdbcf] hover:text-[#ff895d] rounded-full border-2 cursor-pointer flex items-center justify-center h-12 shadow-lg text-2xl my-0 mx-2 no-underline w-12"
+              href="https//:google.com"
+            >
+              <FaGithub />
+            </a>
+            <a
+              className="border-solid shadow-lg bg-[#e86d54] hover:bg-[#c94747] border-[#e96f54] hover:border-[#c94747] text-[#ffdbcf] hover:text-[#ff895d] rounded-full border-2 cursor-pointer flex items-center justify-center h-12 text-2xl my-0 mx-2 no-underline w-12"
+              href="https//:google.com"
+            >
+              <FaLongArrowAltRight />
+            </a>
+          </div>
         </div>
       </div>
     </div>
