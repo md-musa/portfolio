@@ -1,7 +1,7 @@
 import Banner from './components/Banner';
 import Project from './components/Project';
 import { projects } from './data';
-import img1 from './assets/images/image1.jpg';
+import profilePicture from './assets/images/md_musa.png';
 import About from './components/About';
 
 function App() {
@@ -9,7 +9,10 @@ function App() {
     <main className="">
       <Banner />
 
-      <div className="relative mt-10" style={{ backgroundImage: img1 }}>
+      <div
+        className="relative mt-10"
+        style={{ backgroundImage: profilePicture }}
+      >
         {projects.map((project, key) => (
           <Project project={project} key={key} />
         ))}

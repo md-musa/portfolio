@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Ubuntu:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,25 +21,19 @@
   @apply bg-gradient-to-br from-[#ff895d] to-[#c94747];
 }
 .logo {
-  font-family: cursive;
   user-select: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Ubuntu:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Oleo+Script+Swash+Caps&display=swap');
 body {
   font-family: 'Crimson Pro', serif;
   font-family: 'Ubuntu', sans-serif;
   height: 400vh;
-  /* background-image: url('https://images.unsplash.com/photo-1644426358808-d5db8b4735a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80');
-  background: cover; */
 }
 
 .font-secondary {
   font-family: 'Crimson Pro', serif;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
-
 
 ::selection {
   background-color: #ff895d;
@@ -74,4 +70,3 @@ body {
     #2ab0ed 100%
   );
 }
-/* border-[#0f013f] */
