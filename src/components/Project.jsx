@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaLongArrowAltRight, FaGithub } from 'react-icons/fa';
 
 function Project(props) {
@@ -19,7 +19,7 @@ function Project(props) {
 
       <div className="h-full w-full transition-all duration-200 self-center mx-auto pr-14 flex items-center justify-end">
         <div className="relative h-[70%] w-[90%] shadow-xl">
-          <a href="#">
+          <a href="https//:google.com">
             <img
               className="h-full -z-10 w-full object-cover border-solid border-4 rounded-2xl border-[#3b1203]"
               src={image}
