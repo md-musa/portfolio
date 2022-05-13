@@ -10,8 +10,8 @@ function App() {
       <Banner />
 
       <div className="relative mt-10" style={{ backgroundImage: img1 }}>
-        {projects.map(project => (
-          <Project project={project} />
+        {projects.map((project, key) => (
+          <Project project={project} key={key} />
         ))}
 
         <div className="absolute -top-5 right-16 rounded-md italic shadow-md font-medium text-xl px-5 py-2 bg-primary text-white">

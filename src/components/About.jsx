@@ -10,7 +10,6 @@ function About() {
             style={{ filter: 'grayscale(20%)' }}
             src={profileImg}
             alt=""
-            srcset=""
           />
         </div>
       </div>

@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 function Banner() {
   //mx-6 mt-6 rounded-md
   return (
-    <section class="grid grid-cols-2 h-[100vh] bg-gradient-to-br from-[#ff895d] to-[#c94747]">
+    <section className="grid grid-cols-2 h-[100vh] bg-gradient-to-br from-[#ff895d] to-[#c94747]">
       <div className="self-center px-6 pl-36">
         <div className="cursor-pointer shadow-xl w-16 h-16 rounded-full bg-[#cc4b48] flex items-center justify-center">
           <div className="w-11 h-11 rounded-full bg-[#470f06] flex items-center justify-center">
@@ -19,7 +19,7 @@ function Banner() {
           I'm Musa. I'm a Bangladeshi based Frontend Web Developer and
           Multimedia Engineer building cool stuff.
         </p>
-        <div class="social-item flex">
+        <div className="social-item flex">
           <div>
             <a
               className="link"
@@ -69,7 +69,6 @@ function Banner() {
           className="h-full w-4/5 object-contain"
           src="https://happily.ai/lib_wfKJyoksALKsfAWv/ducg62tckz47evnt.png?w=1200&h=900&fit=max&dpr=2"
           alt=""
-          srcset=""
         />
       </div>
     </section>

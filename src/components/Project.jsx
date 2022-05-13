@@ -17,21 +17,19 @@ function Project(props) {
         </button>
       </div>
 
-      <div class="h-full w-full transition-all duration-200 self-center mx-auto pr-14 flex items-center justify-end">
-        <div class="relative h-[70%] w-[90%] shadow-xl">
+      <div className="h-full w-full transition-all duration-200 self-center mx-auto pr-14 flex items-center justify-end">
+        <div className="relative h-[70%] w-[90%] shadow-xl">
           <a href="#">
             <img
               className="h-full -z-10 w-full object-cover border-solid border-4 rounded-2xl border-[#3b1203]"
               src={image}
               alt=""
-              srcset=""
             />
           </a>
           <img
             className="absolute flex bottom-0 -left-72 z-50 h-[100%] w-[100%]  object-contain"
             src={subImage}
             alt=""
-            srcset=""
           />
           <div className="absolute flex bottom-5 right-[35%] space-x-3">
             <a
