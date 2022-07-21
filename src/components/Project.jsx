@@ -2,8 +2,7 @@ import React from 'react';
 import { FaLongArrowAltRight, FaGithub } from 'react-icons/fa';
 
 function Project(props) {
-  const { title, subtitle, description, image, clientGithub, serverGithub, website } =
-    props.project;
+  const { title, subtitle, description, image } = props.project;
   return (
     <div className="flex flex-col-reverse md:grid md:grid-cols-[1fr_2fr] md:mx-6 mb-5 mx-2 py-14 px-6 rounded-md bg-white border-2 border-gray-200 shadow-lg">
       {/*-------> left side <---------*/}

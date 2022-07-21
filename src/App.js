@@ -2,7 +2,7 @@ import Banner from './components/Banner';
 import Project from './components/Project';
 import { projects } from './data';
 import profilePicture from './assets/images/md_musa.png';
-import About from './components/About';
+// import About from './components/About';
 import ecommerce from './assets/images/ecommerce.png';
 import travel from './assets/images/traveling.png';
 import algorithm from './assets/images/algo.png';
