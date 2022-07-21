@@ -2,7 +2,7 @@ import React from 'react';
 import profileImg from '../assets/images/md_musa.png';
 function About() {
   return (
-    <section className="grid grid-cols-[1.5fr_2fr] shadow-lg h-[500px] mx-6 rounded-md mt-10 border">
+    <section className="grid grid-cols-[1.5fr_2fr] bg-white shadow-xl h-[500px] mx-6 rounded-md mt-10 border-4 border-gray-100">
       <div className="h-full w-full flex items-center justify-center">
         <div className="border h-[80%] w-[80%] rounded-xl overflow-hidden">
           <img

@@ -3,3 +3,4 @@
 -> add 3D icon and images
 -> add video
 -> Open modal when click on explore more button
+-> add gip image for project

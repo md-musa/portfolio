@@ -22,10 +22,11 @@
 }
 .logo {
   user-select: none;
+  font-family: fantasy;
 }
 
 body {
-  font-family: 'Crimson Pro', serif;
+  /* font-family: 'Crimson Pro', serif; */
   font-family: 'Ubuntu', sans-serif;
   height: 400vh;
 }
@@ -69,4 +70,8 @@ body {
     #9fd8ef 51%,
     #2ab0ed 100%
   );
+}
+
+body {
+  background: rgb(245, 245, 245);
 }
