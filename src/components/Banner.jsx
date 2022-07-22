@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaMountain } from 'react-icons/fa';
 function Banner() {
   //mx-6 mt-6 rounded-md grid md:grid-cols-2 md:border-4 md:mx-6 md:mt-6 shadow-2xl md:rounded-md
   return (
@@ -8,7 +8,10 @@ function Banner() {
         {/*--------> Logo <--------- */}
         <div className="cursor-pointer shadow-xl w-16 h-16 rounded-full bg-[#cc4b48] flex items-center justify-center">
           <div className="w-11 h-11 rounded-full bg-[#470f06] flex items-center justify-center">
-            <p className="logo font-bold text-3xl text-[#cc4b48] text-center">M</p>
+            <p className="logo flex font-bold text-3xl text-[#cc4b48] text-center">
+              <FaMountain />
+              <FaMountain />
+            </p>
           </div>
         </div>
 

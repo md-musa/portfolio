@@ -6,6 +6,7 @@ import profilePicture from './assets/images/md_musa.png';
 import ecommerce from './assets/images/ecommerce.png';
 import travel from './assets/images/traveling.png';
 import algorithm from './assets/images/algo.png';
+import About from './components/About';
 function App() {
   const images = [ecommerce, travel, algorithm];
 
@@ -23,7 +24,7 @@ function App() {
         </div>
       </div>
 
-      {/* <About /> */}
+      <About />
     </main>
   );
 }
