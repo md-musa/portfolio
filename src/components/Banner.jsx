@@ -1,28 +1,28 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaMountain } from 'react-icons/fa';
+import { GiMountainCave } from 'react-icons/gi';
 function Banner() {
   //mx-6 mt-6 rounded-md grid md:grid-cols-2 md:border-4 md:mx-6 md:mt-6 shadow-2xl md:rounded-md
   return (
     <section className="grid p-10 md:p-0 m-2 md:grid-cols-2 md:m-6 rounded-md shadow-2xl md:border-4 border-[#e56953] bg-gradient-to-br from-[#ff895d] to-[#c94747]">
       <div className="self-center md:px-6 md:pl-36">
         {/*--------> Logo <--------- */}
-        <div className="cursor-pointer shadow-xl w-16 h-16 rounded-full bg-[#cc4b48] flex items-center justify-center">
+        {/* <div className="cursor-pointer shadow-xl w-16 h-16 rounded-full bg-[#cc4b48] flex items-center justify-center">
           <div className="w-11 h-11 rounded-full bg-[#470f06] flex items-center justify-center">
             <p className="logo flex font-bold text-3xl text-[#cc4b48] text-center">
-              <FaMountain />
-              <FaMountain />
+              <GiMountainCave />
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="h-1 shadow-lg w-16 mt-4 bg-[#cc4b48]"></div>
+        <FaMountain className="text-[63px] text-white" />
+        {/* //bg-[#cc4b48] */}
+        <div className="h-1 shadow-lg w-16 bg-white rounded-lg mb-4"></div>
 
-        <h2 className="text-white leading-normal font-bold text-6xl">HEY,</h2>
+        <h2 className="text-white font-bold text-6xl mt-6">HEY,</h2>
         <p className="text-xl leading-normal mb-8 text-white">
-          I'm Musa. I'm a Bangladeshi based Frontend Web Developer and Software Engineer
-          building cool stuff.
+          I'm Musa. I'm a Bangladeshi based Full Stack Web Developer building cool stuff.
         </p>
-
         {/* -------> Social media <--------- */}
         <div className="social-item flex space-x-2 flex-wrap">
           <div>
