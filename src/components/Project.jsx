@@ -6,9 +6,9 @@ function Project(props) {
   return (
     <div className="flex flex-col-reverse md:grid md:grid-cols-[1fr_2fr] md:mx-6 mb-5 mx-2 py-14 px-6 rounded-md bg-white border-2 border-gray-200 shadow-lg">
       {/*-------> left side <---------*/}
-      <div className="self-center md:pl-10">
-        {/* <p className="text-md mb-6 font-semibold">PROJECT</p> */}
-        <h2 className="text-4xl md:text-6xl font-bold mb-5">{title}</h2>
+      <div className="self-center md:pl-8">
+        <p className="text-md mb-3 font-semibold">PROJECT</p>
+        <h2 className="text-4xl md:text-5xl font-bold mb-5">{title}</h2>
         <h5 className="text-xl text-gray-500 ">{subtitle}</h5>
         <p className="text-gray-500 text-lg mt-5">{description}</p>
 

@@ -25,6 +25,10 @@
   font-family: fantasy;
 }
 
+.technology {
+  @apply px-4 flex items-center space-x-1 py-1;
+}
+
 body {
   /* font-family: 'Crimson Pro', serif; */
   font-family: 'Ubuntu', sans-serif;
@@ -74,4 +78,10 @@ body {
 
 body {
   background: rgb(245, 245, 245);
+}
+
+ul li {
+  font-size: 20px;
+  /* color: rgb(80, 79, 79); */
+  /* border: solid 2px rgb(248, 236, 191); */
 }
