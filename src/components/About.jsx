@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaReact } from 'react-icons/fa';
-// import profileImg from '../assets/images/md_musa.png';
-import { IoLogoJavascript } from 'react-icons/io';
+// import { FaNodeJs, FaReact } from 'react-icons/fa';
+// // import profileImg from '../assets/images/md_musa.png';
+// import { IoLogoJavascript } from 'react-icons/io';
 
-import { SiRedux, SiTailwindcss } from 'react-icons/si';
-import { SiReacttable } from 'react-icons/si';
-import { FaHtml5 } from 'react-icons/fa';
-import { DiCss3Full } from 'react-icons/di';
+// import { SiExpress, SiMongodb, SiRedux, SiTailwindcss } from 'react-icons/si';
+// import { SiReacttable } from 'react-icons/si';
+// import { FaHtml5 } from 'react-icons/fa';
+// import { DiCss3Full } from 'react-icons/di';
 
 function About() {
   return (
@@ -23,7 +23,43 @@ function About() {
       <h1 className="text-center font-semibold text-3xl ">Skills</h1>
       <p className="text-center font-normal text-md text-gray-600">DEVELOPMENT ARSENAL</p>
 
-      <div className="grid md:grid-cols-3 px-5">
+      <div className="grid md:grid-cols-3 p-10">
+        <div className="border-r px-10">
+          <h3 className="font-semibold text-xl my-4">Front-End Technologies</h3>
+
+          <ul className="space-y-3">
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>React-Query</li>
+            <li>Tailwind</li>
+          </ul>
+        </div>
+
+        <div className="px-10">
+          <h3 className="font-semibold text-xl my-4">Back-End Technologies</h3>
+
+          <ul className="space-y-3">
+            <li>Node</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+          </ul>
+        </div>
+
+        <div className="px-10 border-l">
+          <h3 className="font-semibold text-xl my-4">Tools</h3>
+
+          <ul className="space-y-3">
+            <li>Visual Studio</li>
+            <li>Git</li>
+            <li>Heroku</li>
+            <li>Netlify</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* <div className="grid md:grid-cols-2 px-5">
         <div className="border-r px-10">
           <h3 className="font-semibold text-xl my-4">Front-End Technologies</h3>
 
@@ -57,31 +93,30 @@ function About() {
             </li>
           </ul>
         </div>
-        <div className="border-r px-6">
+
+        <div className="px-10">
           <h3 className="font-semibold text-xl my-4">Back-End Technologies</h3>
-          <ul>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>React-Query</li>
-            <li>Axios</li>
-            <li>Tailwind</li>
-            <li>HTML</li>
-            <li>CSS</li>
+
+          <ul className="space-y-3">
+            <li className="technology bg-[#d8ffe1] text-[#06960d] rounded-full">
+              <FaNodeJs /> <span>Node</span>
+            </li>
+
+            <li className="technology bg-gray-100 text-gray-600 rounded-full">
+              <SiExpress /> <span>Express</span>
+            </li>
+
+            <li className="technology bg-[#ffe6ea] text-[#b3051f] rounded-full">
+              {'  '}
+              <span>Mongoose</span>
+            </li>
+
+            <li className="technology bg-green-100 text-green-600 rounded-full">
+              <SiMongodb /> <span>MongoDB</span>
+            </li>
           </ul>
         </div>
-        <div className=" px-6">
-          <h3 className="font-semibold text-xl my-4">Tools</h3>
-          <ul>
-            <li>Visual Studio</li>
-            <li>Git</li>
-            <li>Webpack</li>
-            <li>Eslint</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
-          </ul>
-        </div>
-      </div>
+      </div> */}
     </section>
   );
 }

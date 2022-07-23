@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaMountain } from 'react-icons/fa';
-import { GiMountainCave } from 'react-icons/gi';
+// import { GiMountainCave } from 'react-icons/gi';
 function Banner() {
   //mx-6 mt-6 rounded-md grid md:grid-cols-2 md:border-4 md:mx-6 md:mt-6 shadow-2xl md:rounded-md
   return (
