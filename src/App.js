@@ -2,11 +2,11 @@ import Banner from './components/Banner';
 import Project from './components/Project';
 import { projects } from './data';
 import profilePicture from './assets/images/md_musa.png';
-// import About from './components/About';
 import ecommerce from './assets/images/ecommerce.png';
 import travel from './assets/images/traveling.png';
 import algorithm from './assets/images/algo.png';
 import About from './components/About';
+import Contract from './components/Contract';
 function App() {
   const images = [ecommerce, travel, algorithm];
 
@@ -25,6 +25,10 @@ function App() {
       </div>
 
       <About />
+
+      <section className="m-auto bg-white">
+        <Contract />
+      </section>
     </main>
   );
 }

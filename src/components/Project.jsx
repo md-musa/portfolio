@@ -40,7 +40,9 @@ function Project(props) {
       {/*------> right side <-------*/}
       <div className="relative transition-all duration-200 h-full w-full">
         <div className="relative flex items-center justify-end h-full w-full">
-          <div className="relative md:w-[70%] cursor-pointer h-full flex items-center mb-5 md:mb-auto">
+          <div
+            onClick={() => openInNewTab(website)}
+            className="relative md:w-[70%] cursor-pointer h-full flex items-center mb-5 md:mb-auto">
             <img
               className="w-full object-cover cursor-pointer border-solid border-4 rounded-2xl border-[#3b1203]"
               src={image}

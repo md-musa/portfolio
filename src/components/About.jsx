@@ -24,7 +24,7 @@ function About() {
       <p className="text-center font-normal text-md text-gray-600">DEVELOPMENT ARSENAL</p>
 
       <div className="grid md:grid-cols-3 p-10">
-        <div className="border-r px-10">
+        <div className="md:border-r md:px-10">
           <h3 className="font-semibold text-xl my-4">Front-End Technologies</h3>
 
           <ul className="space-y-3">
@@ -36,7 +36,7 @@ function About() {
           </ul>
         </div>
 
-        <div className="px-10">
+        <div className="md:px-10">
           <h3 className="font-semibold text-xl my-4">Back-End Technologies</h3>
 
           <ul className="space-y-3">
@@ -47,7 +47,7 @@ function About() {
           </ul>
         </div>
 
-        <div className="px-10 border-l">
+        <div className="md:px-10 md:border-l">
           <h3 className="font-semibold text-xl my-4">Tools</h3>
 
           <ul className="space-y-3">
